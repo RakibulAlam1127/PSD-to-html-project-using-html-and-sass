@@ -1,0 +1,216 @@
+.header-section {
+  background-image: url("../image/bg-header.png");
+  background-size: cover;
+  background-position: center; }
+  .header-section .navbar .container .modal {
+    background-color: rgba(59, 67, 76, 0.6); }
+    .header-section .navbar .container .modal .modal-dialog .modal-content {
+      background-color: rgba(59, 67, 76, 0.01);
+      border: none; }
+      .header-section .navbar .container .modal .modal-dialog .modal-content .modal-body ul {
+        margin-left: 100px; }
+        .header-section .navbar .container .modal .modal-dialog .modal-content .modal-body ul li {
+          list-style: none;
+          width: 80%; }
+          .header-section .navbar .container .modal .modal-dialog .modal-content .modal-body ul li a {
+            font-size: 24px;
+            line-height: 22px;
+            text-align: center;
+            color: #fff; }
+            .header-section .navbar .container .modal .modal-dialog .modal-content .modal-body ul li a:hover {
+              color: #f7600e; }
+        .header-section .navbar .container .modal .modal-dialog .modal-content .modal-body ul #list_child {
+          border-bottom: 1px solid #f7600e;
+          margin-top: 20px;
+          width: 40%;
+          margin-left: 65px; }
+      .header-section .navbar .container .modal .modal-dialog .modal-content .modal-body .social-icon {
+        position: absolute;
+        left: 33%;
+        margin-top: 10px; }
+        .header-section .navbar .container .modal .modal-dialog .modal-content .modal-body .social-icon img {
+          height: 30px;
+          width: 30px;
+          margin-left: 5px; }
+      .header-section .navbar .container .modal .modal-dialog .modal-content .modal-footer {
+        border-top: 0px;
+        margin-top: 200px;
+        font-size: 20px;
+        margin-right: 34%; }
+  .header-section .container .jumbotron {
+    font-family: 'Open Sans';
+    background-color: transparent; }
+    .header-section .container .jumbotron h2 {
+      font-size: 40px; }
+      .header-section .container .jumbotron h2 span {
+        color: #f7600e; }
+    .header-section .container .jumbotron p {
+      font-size: 20px; }
+    .header-section .container .jumbotron .btn {
+      width: 150px;
+      border: 1px solid #65696e;
+      color: #fff; }
+      .header-section .container .jumbotron .btn:hover {
+        background-color: #f7600e; }
+    .header-section .container .jumbotron .downArrow {
+      margin-top: 100px; }
+      .header-section .container .jumbotron .downArrow img {
+        width: 25px;
+        height: 25px; }
+
+.icon-section {
+  margin-top: 60px; }
+  .icon-section .row .col-md-3 {
+    font-family: 'Open Sans'; }
+    .icon-section .row .col-md-3 img {
+      height: 100px;
+      width: 100px;
+      margin-bottom: 15px; }
+    .icon-section .row .col-md-3 h5 {
+      color: #3b434c;
+      margin-bottom: 20px; }
+    .icon-section .row .col-md-3 p {
+      line-height: 30px; }
+
+.newslatter {
+  background-image: url("../image/newslatter.png");
+  background-size: cover;
+  background-position: center; }
+  .newslatter .jumbotron {
+    background-color: transparent; }
+    .newslatter .jumbotron .input-group .form-control {
+      border-radius: 6px; }
+    .newslatter .jumbotron .input-group .btn {
+      min-width: 170px;
+      border: none;
+      background-color: #f7600e;
+      margin-left: 20px;
+      color: #fff; }
+
+.project-section {
+  margin-top: 70px;
+  background-color: transparent;
+  font-family: 'Open Sans'; }
+  .project-section h4 {
+    font-size: 36px;
+    color: #3b434c; }
+  .project-section span {
+    color: #f7600e; }
+  .project-section p {
+    font-size: 18px;
+    line-height: 30px; }
+  .project-section .show-project {
+    margin-top: 80px; }
+    .project-section .show-project .col-md-4 .card {
+      border: none;
+      height: 300px; }
+      .project-section .show-project .col-md-4 .card img {
+        height: 300px;
+        width: 100%;
+        margin-bottom: 10px; }
+      .project-section .show-project .col-md-4 .card .card-img-overlay {
+        opacity: 0;
+        height: 300px;
+        margin-top: 0;
+        border-radius: 7px;
+        background-color: rgba(255, 87, 14, 0.9);
+        transition: 0.7s ease; }
+        .project-section .show-project .col-md-4 .card .card-img-overlay a {
+          position: absolute;
+          left: 50%;
+          top: 80%;
+          transform: translate(-50%, -50%);
+          color: #f7600e;
+          font-size: 17px;
+          margin: auto; }
+      .project-section .show-project .col-md-4 .card:hover .card-img-overlay {
+        opacity: 1; }
+  .project-section .btn {
+    margin-top: 60px;
+    width: 150px;
+    border: 1px solid #d8d9db;
+    margin-left: 75px; }
+
+.carousel-inner .carousel-item {
+  height: 300px;
+  position: relative; }
+  .carousel-inner .carousel-item img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .carousel-inner .carousel-item .carousel-caption p {
+    font-family: 'Open Sans';
+    font-style: italic; }
+  .carousel-inner .carousel-item small {
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+.carousel-inner .carousel-image-one {
+  background-image: url("../image/image1.png");
+  background-size: cover; }
+
+.team-section .team-header {
+  font-family: 'Open Sans'; }
+  .team-section .team-header h4 {
+    font-size: 36px;
+    color: #3b434c; }
+    .team-section .team-header h4 span {
+      color: #f7600e; }
+  .team-section .team-header p {
+    line-height: 30px;
+    font-size: 14px; }
+.team-section .row {
+  font-family: 'Open Sans';
+  margin-top: 60px; }
+  .team-section .row .col-md-3 img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    border-bottom: 5px solid transparent; }
+    .team-section .row .col-md-3 img:hover {
+      border-bottom: 5px solid #f7600e;
+      border-radius: 10px; }
+  .team-section .row .col-md-3 h4 {
+    color: #3b434c;
+    margin-top: 10px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-align: center; }
+  .team-section .row .col-md-3 .fab {
+    color: red; }
+  .team-section .row .col-md-3 p {
+    font-size: 12px;
+    text-align: center; }
+
+.contact-section {
+  background-image: url("../image/bg-footer.png");
+  background-size: cover;
+  height: auto; }
+  .contact-section .foot-head {
+    font-family: 'Open Sans'; }
+    .contact-section .foot-head span {
+      color: #f7600e; }
+  .contact-section .jumbotron {
+    background-color: transparent; }
+    .contact-section .jumbotron .btn-social-icon .btn {
+      width: 150px;
+      background-color: #f7600e; }
+    .contact-section .jumbotron .btn-social-icon .social-icon a img {
+      height: 33px;
+      width: 33px;
+      padding: 2px; }
+
+.footer-section {
+  background-color: #3b434c; }
+  .footer-section .container .myFoot {
+    padding-top: 20px;
+    color: #fff;
+    font-size: 12px; }
+    .footer-section .container .myFoot span {
+      color: red; }
+
+/*# sourceMappingURL=style.css.map */

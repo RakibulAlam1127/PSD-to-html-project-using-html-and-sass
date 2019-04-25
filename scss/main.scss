@@ -1,0 +1,370 @@
+                    // Author : Md Rakibul Alam
+                    // Full-Stack Web-Developer
+                    // E-mail:limonrakib05690@gmail.com
+                    // Facebook:www.facebook.com/limonrakib05690
+                    // phone:01708786152
+
+//Our header section Code will be goes here
+.header-section{
+  background-image: url('../image/bg-header.png');
+  background-size: cover;
+  background-position: center;
+    .navbar{
+          .container{
+            .modal{
+               background-color: rgba(59, 67, 76,.6);
+              .modal-dialog{
+
+                .modal-content{
+                     background-color: rgba(59, 67, 76,.01);
+                     border: none;
+
+                  .modal-body{
+
+                    ul{
+                      margin-left: 100px;
+                      li{
+                        list-style: none;
+                        width: 80%;
+                        a{
+
+                          font-size: 24px;
+                          line-height: 22px;
+                          text-align: center;
+                          color:#fff;
+                          &:hover{
+                            color: #f7600e;
+                          }
+                        }
+
+                      }
+                      #list_child{
+                        border-bottom: 1px solid #f7600e;
+                        margin-top: 20px;
+                        width: 40%;
+                        margin-left: 65px;
+                      }
+                    }
+                    .social-icon{
+                      position: absolute;
+                      left:33%;
+                      margin-top: 10px;
+                      img{
+                        height: 30px;
+                        width: 30px;
+                        margin-left: 5px;
+
+                      }
+                    }
+                  }
+                  .modal-footer{
+                    border-top: 0px;
+                    margin-top: 200px;
+
+                    font-size: 20px;
+                    margin-right: 34%;
+                  }
+                }
+              }
+            }
+          }
+
+    }
+
+    .container{
+      .jumbotron{
+        font-family: 'Open Sans';
+        background-color: transparent;
+        h2{
+          font-size: 40px;
+          span{
+            color: #f7600e;
+
+          }
+        }
+        p{
+          font-size: 20px;
+        }
+        .btn{
+          width: 150px;
+          border: 1px solid #65696e;
+
+          color: #fff;
+          &:hover{
+            background-color: #f7600e;
+          }
+        }
+      .downArrow{
+        margin-top: 100px;
+        img{
+          width: 25px;
+          height: 25px;
+        }
+      }
+      }
+    }
+}
+
+
+
+//Icon Section Code will be goes here
+
+
+.icon-section{
+  margin-top: 60px;
+  .row{
+     .col-md-3{
+        font-family: 'Open Sans';
+        img{
+          height: 100px;
+          width: 100px;
+          margin-bottom: 15px;
+        }
+        h5{
+         color: #3b434c;
+         margin-bottom: 20px;
+        }
+        p{
+          line-height: 30px;
+        }
+     }
+  }
+}
+
+
+//Newslatter Section Code will be goes here
+
+.newslatter{
+  background-image: url('../image/newslatter.png');
+  background-size: cover;
+  background-position:center;
+  .jumbotron{
+
+    background-color: transparent;
+    .input-group{
+
+      .form-control{
+        border-radius: 6px;
+
+      }
+      .btn{
+        min-width:170px;
+        border: none;
+        background-color: #f7600e;
+        margin-left: 20px;
+       color:#fff;
+      }
+    }
+  }
+}
+
+//Project Section code will be goes here
+
+.project-section{
+  margin-top:70px;
+    background-color: transparent;
+    font-family: 'Open Sans';
+    h4{
+
+      font-size: 36px;
+      color: #3b434c;
+    }
+    span{
+      color: #f7600e;
+    }
+    p{
+      font-size: 18px;
+      line-height: 30px;
+    }
+  .show-project{
+    margin-top: 80px;
+     .col-md-4{
+       .card{
+         border:none;
+         height: 300px;
+         img{
+           height:300px;
+           width: 100%;
+           margin-bottom: 10px;
+
+         }
+
+         .card-img-overlay{
+           opacity: 0;
+            height: 300px;
+            margin-top: 0;
+            border-radius: 7px;
+            background-color: rgba(323,87,14,0.9);
+             transition: 0.7s ease;
+            a{
+             position: absolute;
+             left: 50%;
+             top:80%;
+             transform: translate(-50%,-50%);
+             color:#f7600e;
+             font-size: 17px;
+
+             margin: auto;
+            }
+
+          }
+
+
+
+        &:hover .card-img-overlay{
+          opacity: 1;
+        }
+       }
+
+
+     }
+  }
+.btn{
+  margin-top: 60px;
+  width: 150px;
+  border: 1px solid #d8d9db;
+  margin-left: 75px;
+
+}
+
+}
+
+//Carousel Slider scss code will be goes here
+
+.carousel-inner{
+  .carousel-item{
+    height: 300px;
+    position: relative;
+    img{
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    .carousel-caption{
+      p{
+        font-family: 'Open Sans';
+        font-style: italic;
+      }
+    }
+
+    small{
+      position: absolute;
+      top:88%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+
+  }
+  .carousel-image-one{
+    background-image: url('../image/image1.png');
+    background-size: cover;
+
+  }
+}
+
+//Team Section Code will be goes here
+.team-section{
+  .team-header{
+    font-family: 'Open Sans';
+    h4{
+      font-size: 36px;
+      color:#3b434c;
+      span{
+        color:#f7600e;
+      }
+    }
+    p{
+      line-height: 30px;
+      font-size: 14px;
+
+    }
+  }
+
+ .row{
+   font-family: 'Open Sans';
+
+   margin-top: 60px;
+   .col-md-3{
+
+       img{
+         width: 100%;
+         height: 300px;
+         margin-bottom: 10px;
+         border-bottom: 5px solid transparent;
+         &:hover{
+           border-bottom: 5px solid #f7600e;
+           border-radius: 10px;
+
+         }
+       }
+
+     h4{
+       color: #3b434c;
+       margin-top: 10px;
+       font-size: 28px;
+       letter-spacing:1px;
+       text-align: center;
+     }
+
+        .fab{
+           color:red;
+        }
+
+     p{
+       font-size: 12px;
+       text-align: center;
+     }
+   }
+
+
+ }
+
+}
+
+
+.contact-section{
+  background-image: url('../image/bg-footer.png');
+  background-size: cover;
+  height: auto;
+  .foot-head{
+     font-family: 'Open Sans';
+     span{
+       color:#f7600e;
+     }
+  }
+  .jumbotron{
+     background-color: transparent;
+     .btn-social-icon{
+        .btn{
+          width: 150px;
+          background-color: #f7600e;
+        }
+        .social-icon{
+          a{
+            img{
+              height: 33px;
+              width: 33px;
+              padding:2px;
+            }
+          }
+        }
+     }
+  }
+}
+
+.footer-section{
+  background-color: #3b434c;
+   .container{
+     .myFoot{
+       padding-top: 20px;
+       color:#fff;
+       font-size: 12px;
+       span{
+         color:red;
+       }
+     }
+   }
+}
